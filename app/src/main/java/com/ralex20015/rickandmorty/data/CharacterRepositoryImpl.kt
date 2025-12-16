@@ -8,7 +8,7 @@ import javax.inject.Inject
 class CharacterRepositoryImpl @Inject constructor(
 
 ) : CharacterRepository {
-    override suspend fun getCharacters(): Flow<Result<List<Character>>> {
+    override suspend fun getCharacters(): Result<List<Character>> {
         TODO("Not yet implemented")
     }
 }
