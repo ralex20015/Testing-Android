@@ -1,5 +1,5 @@
 package com.ralex20015.rickandmorty.domain
 
-enum class Status {
-    ALIVE, DEAD, UNKNOWN
+enum class Gender {
+    MALE, FEMALE, OTHER
 }
