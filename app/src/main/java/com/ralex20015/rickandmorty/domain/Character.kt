@@ -7,4 +7,5 @@ data class Character(
     val lifeStatus: Status,
     val gender: Gender,
     val specie: Specie,
+    val isFavorite: Boolean = false,
 )
