@@ -1,7 +1,7 @@
 package com.ralex20015.rickandmorty.di
 
 import com.ralex20015.rickandmorty.data.CharacterRepositoryImpl
-import com.ralex20015.rickandmorty.domain.CharacterRepository
+import com.ralex20015.rickandmorty.domain.repository.CharacterRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
